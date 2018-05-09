@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+body{ /*mengatur keseluruhan dari body halaman */
+background:#5B9EA2; /*warna backgroun dari body/halaman*/
+font-family: Arial, Helvetica, sans-serif; /*jenis tulisan arial*/
+color:#E6CC0D; /*warna tulisan keselurhan yang ada di body*/
+} 
+
+table{ /*  semua tag tabel  diganti warnanya menjadi putih */
+background-color:#54697B;}
+
+
+hr{ border: dotted 1px #cccccc;} /* tag hr /garis, akan berbentuk titik2 setebal 1px berwarna abu2 muda */
+ 
+a { /* diambil semua tag a dihilangkan garis bawahnya dan diganti warna jadi abu gelap*/
+color:#333333;
+text-decoration:none;
+} 
+a:hover,a:active,a:focus{ /* tag  a bila kondisi disentuh, active, ataupun focus maka diberi garis bawah */
+text-decoration:underline;}
+
+button{ /* semua tag button */
+background: #0099FF;
+color:#FFFFFF;
+padding:3px;
+border:none;
+border-top-left-radius:5px;
+border-top-right-radius:5px;
+border-bottom-left-radius:5px;
+border-bottom-right-radius:5px;
+}
+
+button:hover{
+background:#00CCFF;}
+
+input:focus, textarea:focus{ /* input dan textarea saat kursor focus */
+border:#0099FF solid 3px;
+}
+
+#wrap{ /* untuk mengatur ID Wrap  . Tanda pagar andalah identifikasi dari ID, jika hendak digunakan, tinggal pakai ID='wrap'*/
+padding:10px; /*jarak antara objek dg pembatas */
+border:1px solid #54697B; /* garis warna abu2 sebesar setebal 1 px */
+margin-top:-10px; /* margin dari atas dinaikan 10 pixel dari posisi dia berada supaya tidak ada renggang antara jendela dengan objek */
+
+}
+
+.menu{ /* untuk mengatur class menu,, jika hendak digunakan, tinggal pakai class='menu' */
+background:#0099FF;
+font-size:18px;
+padding:10px;
+width:100px;
+color:#FFFFFF
+}
+
+.menu a { /* mengatur class menu yang didalamnya ada tag A */
+color:#FFFFFF;
+font-family:Geneva, Arial, Helvetica, sans-serif;
+text-decoration:none; /* tidak pakai garis bawah */
+}
+.menu a:hover{ /* mengatur class menu yang didalamnya ada tag A saat kondisi disentuh */
+text-shadow:0px 0px 4px #FFFFFF;  /* efek bayangan, posisi horizontal, posisi vertikal, panjangan bayangan dan warna bayangan*/
+text-decoration:underline;
+}
+
+.judul{
+color:#0099FF;
+font-family:Impact, Rockwell;
+}
+.small{
+font-size:11px;}
